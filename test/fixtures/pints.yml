@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ice_cream_flavor: MyString
+  topping1: MyString
+  topping2: MyString
+  topping3: MyString
+  topping4: MyString
+  topping5: MyString
+  price: 1.5
+
+two:
+  ice_cream_flavor: MyString
+  topping1: MyString
+  topping2: MyString
+  topping3: MyString
+  topping4: MyString
+  topping5: MyString
+  price: 1.5
