@@ -1,10 +1,10 @@
 class AddressesController < ApplicationController
 
-    def new 
-        @address=Address.new
-    end 
+    # def new 
+    #     @address=Address.new
+    # end 
 
-    def create
-        @
-    end 
+    # def create
+    #     @
+    # end 
 end
