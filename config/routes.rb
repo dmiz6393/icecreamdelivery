@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
   root to: 'welcome#index'
-  resources :users, only: [:new,:create]
+  get '/signup', to:'users#new', as: :signup
   get '/login', to:'sessions#new', as: :login 
   delete '/logouts', to:'sessions#destroy', as: :logout
-  get '/signup', to: 'users#new', as: :signup
+  resources :users
+ 
+ 
   resources :order_items
   resources :orders
   resources :toppings
