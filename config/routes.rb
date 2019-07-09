@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :users, only: [:new,:create]
   get '/login', to:'sessions#new', as: :login 
   delete '/logouts', to:'sessions#destroy', as: :logout
+  get '/signup', to: 'users#new', as: :signup
   resources :order_items
   resources :orders
   resources :toppings
